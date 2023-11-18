@@ -58,6 +58,8 @@ The features planned to be added:
 ## Download
 
 CDN Urls:
+1. Minimifed: <https://rawcdn.githack.com/0xffabc/KMD/242b49c78590a8b83e8c7aa0730a776eea230319/dist/browser.min.js>
+2. Obfuscated: <https://rawcdn.githack.com/0xffabc/KMD/242b49c78590a8b83e8c7aa0730a776eea230319/dist/browser.obfs.js>
 
 ## KMD Code
 
