@@ -12,7 +12,7 @@ This library is lightweight and understandable by a beginner, everyone can use i
 ## Usage
 
 How to use KMD?
-Let's say, we want to monkeypatch a library "victim.js" (view it [here](<https://github.com/0xffabc/KMD/main/tests/victim.js>)
+Let's say, we want to monkeypatch a library "victim.js" (view it [here](<https://github.com/0xffabc/KMD/tree/main/tests/victim.js>)
 For some reason, we want to replace alert by console log.
 In KMD we can do it by multiple ways:
 1. "TEXT_HOOK"
