@@ -58,9 +58,9 @@ The features planned to be added:
 ## Download
 
 CDN Urls:
-1. Minimifed: <https://rawcdn.githack.com/0xffabc/KMD/fc194b734fade101298f5019961c242f193624fd/dist/browser.min.js>
-2. Obfuscated: <https://rawcdn.githack.com/0xffabc/KMD/fc194b734fade101298f5019961c242f193624fd/dist/browser.obfs.js>
-
+1. Minimifed (terser): <https://rawcdn.githack.com/0xffabc/KMD/fc194b734fade101298f5019961c242f193624fd/dist/browser.min.js>
+2. Obfuscated (obfuscator.io): <https://rawcdn.githack.com/0xffabc/KMD/fc194b734fade101298f5019961c242f193624fd/dist/browser.obfs.js>
+3. Packed (dean edwards packer): <https://rawcdn.githack.com/0xffabc/KMD/7d675e161838b8821b4e1ef2f583bf1408c5754a/dist/browser.pack.js>
 ## KMD Code
 
 Source code is available [here](<https://github.com/0xffabc/KMD/blob/main/src>)
