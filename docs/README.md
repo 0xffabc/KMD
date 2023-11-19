@@ -56,7 +56,7 @@ In KMD we can do it by multiple ways. These are basic KMD hooks:
      ```js
      kmd.AddHook("PROP_REMOVE", "Property");
      ```
-More detailed guide will be available [here](<x>) soon.
+More detailed guide will be available [here](<methods.md>) soon.
 ## Patching a script
 The process of patching a script is:
 1. You create instance of KMDApi
