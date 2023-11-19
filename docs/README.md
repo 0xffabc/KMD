@@ -12,9 +12,10 @@ This library is lightweight and understandable by a beginner, everyone can use i
 ## Usage
 
 How to use KMD?
+
 Let's say, we want to monkeypatch a library "victim.js" (view it [here](<https://github.com/0xffabc/KMD/tree/main/tests/victim.js>)
 For some reason, we want to replace alert by console log.
-In KMD we can do it by multiple ways:
+In KMD we can do it by multiple ways. These are basic KMD hooks:
 1. "TEXT_HOOK"
    - TEXT_HOOK is standart way to replace something in the file.
      ```js
@@ -45,6 +46,17 @@ In KMD we can do it by multiple ways:
      // We would use script as data:url,
      // And now all object instances created after patch will have "someValue" property with value "true".
      ```
+4. "HTML_HOOK"
+   - Allows to patch something in HTML, stops document load and reloads HTML content with replaced values.
+     ```js
+     kmd.AddHook("HTML_HOOK", "something", "replaced");
+     ```
+5. "PROP_REMOVE"
+   - Used to clean getters and setters for property before hooking it.
+     ```js
+     kmd.AddHook("PROP_REMOVE", "Property");
+     ```
+More detailed guide will be available [here](<x>) soon.
 ## Patching a script
 The process of patching a script is:
 1. You create instance of KMDApi
