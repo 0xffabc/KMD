@@ -2,8 +2,6 @@
 <div align="center">
    <p>
       <img src="https://img.shields.io/github/stars/0xffabc/KMD">
-      <img src="https://img.shields.io/github/release/0xffabc/KMD">
-      <img src="https://img.shields.io/github/commits-since/0xffabc/KMD/latest">
    </p>
 </div>
 ## About
